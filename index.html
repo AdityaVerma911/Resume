@@ -23,11 +23,33 @@
         </span>
         <div class="nav">
             <ul class="nav-items" id="navbar">
-                <li class="items"><a href="#about" class="item">About</a></li>
-                <li class="items"><a href="#education" class="item">Education</a></li>
-                <li class="items"><a href="#experience" class="item">Experience</a></li>
-                <li class="items"><a href="#skills" class="item">Skills</a></li>
-                <li class="items"><a href="#project" class="item">Projects</a></li>
+                <li class="items"><a href="#about" class="item about active ">About</a></li>
+                <li class="items"><a href="#education" class="item education">Education</a></li>
+                <li class="items"><a href="#experience" class="item experience">Experience</a></li>
+                <li class="items"><a href="#skills" class="item skills">Skills</a></li>
+                <li class="items"><a href="#project" class="item project">Projects</a></li>
+            </ul>
+    
+            <!-- <div class="menu-btn">
+                <a href="#navbar" onclick="toggle_display()" id="nav_toggle">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </a>   
+            </div> -->
+        </div>
+        
+    </nav>
+
+    <nav class="sidebar2">
+       
+        <div class="nav">
+            <ul class="nav-items" id="navbar2">
+                <li class="items  "><a href="#about" class="item about active ">About</a></li>
+                <li class="items"><a href="#education" class="item education">Education</a></li>
+                <li class="items"><a href="#experience" class="item experience">Experience</a></li>
+                <li class="items"><a href="#skills" class="item skills">Skills</a></li>
+                <li class="items"><a href="#project" class="item project">Projects</a></li>
             </ul>
     
             <div class="menu-btn">
@@ -44,10 +66,18 @@
 
         <section  id="about">
             <div class="main-about container ">
-                <h1 ><span>Aditya</span> Verma</h1>
-                <h2>Vaditya587@gmail.com    +91-6284233191</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ex laboriosam provident officiis, suscipit quia. Quidem voluptatibus ratione sunt eveniet nemo aliquid. Reiciendis omnis magni eos deleniti commodi non eum.</p>
-                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ratione excepturi quibusdam rerum minus laborum sint adipisci blanditiis delectus. Saepe quam nostrum itaque non? Deleniti dolores saepe quisquam nobis amet ullam harum, itaque sed in!</p> -->
+                <div class="dis-pic">
+                    <img class="picsize1 " src="../images/profile_pic.jpg" alt="profilePic">
+                    <div>
+                        <h1 ><span>Aditya</span> Verma</h1>
+                        <h2>Vaditya587@gmail.com <span>|</span> +91-6284233191</h2>
+                    </div>
+                    
+                </div>
+                
+               <p>Highly motivated individual with good understanding of web development. 
+                   Well capable of debugging and enhancing frontend and backend with the 
+                   ability to work in a multi-paced environment.</p>
                 <div class="icon-box">
                     <i class="fab fa-github"></i>
                     <i class="fab fa-linkedin"></i>
@@ -75,7 +105,7 @@
                                     <h2>Lovely Professional University,Punjab</h2>
                                     <h3>Bachelor of Technology</h3>
                                     <p>Computer Science</p>
-                                     <!-- <p>CGPA: 7.2</p> -->
+                                     <p>CGPA: 7.2</p>
                                 </div>
                                
                             </div>
@@ -116,7 +146,7 @@
         <section id="experience" >
             <div class="main-experience container ">
                 <h1>Experience</h1>
-                <div>
+                <div class="mainb">
                     <div class="main-exp">
                         <div>
                             <div class="exp">
@@ -134,7 +164,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque autem totam consequuntur molestiae, aperiam, magnam a provident hic dignissimos facere modi eveniet repudiandae obcaecati?</p>
                 </div>
                 <br>
-                <div>
+                <div class="mainb">
                     <div class="main-exp">
                         <div >
                             <div class="exp">
